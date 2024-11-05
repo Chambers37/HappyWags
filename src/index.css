@@ -1,0 +1,22 @@
+
+body, .home-container {
+  font-family: Arial, sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+}
+
+.signup-button {
+  background-color: #4caf50;
+  color: white;
+}
