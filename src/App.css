@@ -89,3 +89,38 @@
   cursor: pointer;
   margin-top: 10px;
 }
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff6b6b;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
