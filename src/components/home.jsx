@@ -1,5 +1,8 @@
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="home-container">
       {/* Header Section */}
@@ -41,7 +44,7 @@ const Home = () => {
       {/* Call-to-Action */}
       <section className="cta-section">
         <button className="explore-button">Explore All Pets</button>
-        <button className="signup-button">Sign Up / Log In</button>
+        <button className="signup-button" onClick={() => navigate('/auth')}>Sign Up / Log In</button>
       </section>
 
       {/* Footer */}

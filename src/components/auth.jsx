@@ -13,7 +13,7 @@ const Auth = () => {
         {isSignUp && (
           <input
             type="text"
-            placeholder="Name"
+            placeholder="Username"
             className="auth-input"
             required
           />
