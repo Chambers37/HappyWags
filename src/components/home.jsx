@@ -48,13 +48,7 @@ const Home = () => {
           <button className="signup-button" onClick={() => navigate('/auth')}>Sign Up / Log In</button>
         </section>
       </div>
-
-        {/* Footer */}
-        <footer className="home-footer">
-          <p>© 2024 HappyWags. Helping pets find loving homes.</p>
-          <p>Contact us at support@happywags.com</p>
-        </footer>
-      </>
+    </>
   );
 };
 
