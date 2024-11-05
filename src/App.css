@@ -1,3 +1,12 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex-grow: 1;
+}
 
 .home-container {
   padding: 20px;
@@ -126,4 +135,14 @@
 
 .navbar-links a:hover {
   text-decoration: underline;
+}
+
+/* Footer styling */
+.home-footer {
+  background-color: #3da15f;
+  font-size: 0.9rem;
+  color: #2d2d2d;
+  text-align: center;
+  padding: 10px;
+  margin-top: 0; 
 }
